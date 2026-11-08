@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>On The Way · musical · Ontwerpconcept 1: Gouden uur</title>
+<meta name="description" content="Ontwerpconcept voor de musical On The Way. Alle tekst en gegevens zijn voorbeelden.">
+<meta name="theme-color" content="#0e0b08">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="preload" as="image" type="image/webp" imagesrcset="assets/img/full-640.webp 640w, assets/img/full-1024.webp 1024w" imagesizes="(min-width: 900px) 72vw, 100vw">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Naar de inhoud</a>
+<p class="concept-banner" role="note">Ontwerpconcept · alle tekst en gegevens zijn voorbeelden</p>
+<div class="reel" aria-hidden="true"><span></span></div>
+
+<header class="site-header" id="top">
+  <a class="wordmark" href="#top" aria-label="On The Way, naar boven"><span>On</span> <i>the</i> <span>Way</span></a>
+  <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+    <span class="nav-toggle__bars" aria-hidden="true"></span><span class="nav-toggle__label">Menu</span>
+  </button>
+  <nav class="site-nav" id="site-nav" aria-label="Hoofdnavigatie">
+    <ul>
+      <li><a href="#verhaal">Het verhaal</a></li>
+      <li><a href="#informatie">Praktisch</a></li>
+      <li><a href="#cast">Cast &amp; makers</a></li>
+      <li><a href="#galerij">Galerij</a></li>
+      <li><a href="#wie">Wie zijn wij?</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a class="btn btn--gold btn--small" href="#tickets" data-ticket>Tickets</a>
+  </nav>
+</header>
+
+<main id="main">
+  <section class="hero" aria-labelledby="hero-title" data-light="gouden-uur">
+    <div class="hero__frame" data-parallax="0.22">
+      <picture>
+        <source type="image/webp" srcset="assets/img/full-640.webp 640w, assets/img/full-1024.webp 1024w" sizes="(min-width: 900px) 72vw, 100vw">
+        <img class="hero__photo" src="assets/img/full-1024.jpg" srcset="assets/img/full-640.jpg 640w, assets/img/full-1024.jpg 1024w" sizes="(min-width: 900px) 72vw, 100vw" width="1024" height="1536" fetchpriority="high" decoding="async"
+          alt="Conceptbeeld: een jonge man met een rode rugzak loopt bij zonsondergang een rotsig pad op naar een kruis op de heuvel, terwijl toneelspots door de lucht schijnen.">
+      </picture>
+      <svg class="hero__beams" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+        <defs>
+          <linearGradient id="beam" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stop-color="#fff3d6" stop-opacity=".55"/>
+            <stop offset="1" stop-color="#fff3d6" stop-opacity="0"/>
+          </linearGradient>
+        </defs>
+        <g class="beam beam--a"><polygon points="8,0 11,0 34,100 14,100" fill="url(#beam)"/></g>
+        <g class="beam beam--b"><polygon points="13,0 15,0 52,100 36,100" fill="url(#beam)"/></g>
+        <g class="beam beam--c"><polygon points="3,0 5,0 18,100 4,100" fill="url(#beam)"/></g>
+      </svg>
+      <div class="hero__sun" aria-hidden="true"></div>
+      <div class="hero__dust" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+      <div class="hero__tint" aria-hidden="true"></div>
+    </div>
+    <div class="hero__glow" aria-hidden="true"></div>
+
+    <div class="hero__content">
+      <p class="eyebrow"><span class="eyebrow__rule" aria-hidden="true"></span>Een nieuwe musical <span class="tag">Voorbeeld</span></p>
+      <h1 id="hero-title" class="hero__title">
+        <span class="hero__word hero__word--on">On</span>
+        <span class="hero__word hero__word--the">the</span>
+        <span class="hero__word hero__word--way">Way</span>
+      </h1>
+      <p class="hero__lede">Een voorbeeldverhaal over onderweg zijn. Over hoop die meeloopt, en over licht dat je tegemoetkomt als de dag bijna voorbij is.</p>
+      <div class="hero__actions">
+        <a class="btn btn--gold" href="#tickets" data-ticket>Reserveer tickets <span aria-hidden="true">→</span></a>
+        <a class="btn btn--ghost" href="#verhaal">Bekijk het verhaal</a>
+      </div>
+    </div>
+
+    <div class="hero__foot">
+      <p class="billing" aria-label="Voorbeeld van een creditsblok">
+        <span>Een voorstelling van <b>organisatie volgt</b></span>
+        <span>muziek <b>naam volgt</b></span>
+        <span>regie <b>naam volgt</b></span>
+        <span>première <b>nog bekend te maken</b></span>
+        <span>locatie <b>nog bekend te maken</b></span>
+      </p>
+      <div class="light-switch" role="group" aria-label="Kleur van het licht in het beeld">
+        <span class="light-switch__label" aria-hidden="true">Licht</span>
+        <button type="button" data-light-set="middag" aria-pressed="false">Middag</button>
+        <button type="button" data-light-set="gouden-uur" aria-pressed="true">Gouden uur</button>
+        <button type="button" data-light-set="schemering" aria-pressed="false">Schemering</button>
+      </div>
+    </div>
+    <a class="hero__cue" href="#verhaal"><span>Scroll</span><i aria-hidden="true"></i></a>
+  </section>
+
+  <section class="story" id="verhaal" aria-labelledby="verhaal-title">
+    <header class="story__head reveal">
+      <p class="label"><span class="label__num">01</span> Voorbeeldverhaal</p>
+      <h2 id="verhaal-title" class="display">Het verhaal, <em>in drie shots</em></h2>
+      <p class="story__intro">Een jonge man pakt zijn rode rugzak en laat het vertrouwde achter zich. Hij weet niet waar de weg naartoe leidt, alleen dat hij moet gaan.</p>
+    </header>
+
+    <div class="scenes">
+      <div class="camera" aria-hidden="true">
+        <div class="camera__frame" data-shot="0">
+          <picture>
+            <source type="image/webp" srcset="assets/img/full-640.webp 640w, assets/img/full-1024.webp 1024w" sizes="(min-width: 900px) 40vw, 1px">
+            <img class="camera__img" src="assets/img/full-1024.jpg" srcset="assets/img/full-640.jpg 640w, assets/img/full-1024.jpg 1024w" sizes="(min-width: 900px) 40vw, 1px" width="1024" height="1536" alt="" loading="lazy" decoding="async">
+          </picture>
+          <span class="camera__corner camera__corner--tl"></span><span class="camera__corner camera__corner--tr"></span>
+          <span class="camera__corner camera__corner--bl"></span><span class="camera__corner camera__corner--br"></span>
+          <p class="camera__hud"><span class="camera__rec">REC</span> <span data-shot-label>Shot 00 · Totaal</span></p>
+        </div>
+      </div>
+
+      <ol class="shots">
+        <li class="shot reveal" data-shot-target="1">
+          <picture class="shot__still">
+            <source type="image/webp" srcset="assets/img/rugzak-480.webp">
+            <img src="assets/img/rugzak-480.jpg" width="480" height="640" alt="Detail van het conceptbeeld: de rode rugzak op de rug van de reiziger." loading="lazy" decoding="async">
+          </picture>
+          <p class="shot__n">Shot 01 · Vertrek</p>
+          <h3>De rugzak is zwaarder dan gedacht</h3>
+          <p>De deur valt achter hem dicht. Alles wat hij meeneemt, draagt hij zelf. En een paar dingen die hij liever thuis had gelaten.</p>
+        </li>
+        <li class="shot reveal" data-shot-target="2">
+          <picture class="shot__still">
+            <source type="image/webp" srcset="assets/img/spots-520.webp">
+            <img src="assets/img/spots-520.jpg" width="520" height="560" alt="Detail van het conceptbeeld: toneelspots die als sterren door de wolken schijnen." loading="lazy" decoding="async">
+          </picture>
+          <p class="shot__n">Shot 02 · Onderweg</p>
+          <h3>Er gaan lampen aan in de lucht</h3>
+          <p>Onderweg ontmoet hij mensen die hem iets meegeven: een lied, een vraag, een hand op zijn schouder. Twijfel en hoop lopen een eind met hem op.</p>
+        </li>
+        <li class="shot reveal" data-shot-target="3">
+          <picture class="shot__still">
+            <source type="image/webp" srcset="assets/img/kruis-560.webp">
+            <img src="assets/img/kruis-560.jpg" width="560" height="560" alt="Detail van het conceptbeeld: een houten kruis op de heuveltop tegen de ondergaande zon." loading="lazy" decoding="async">
+          </picture>
+          <p class="shot__n">Shot 03 · Aankomst</p>
+          <h3>Bovenaan valt het licht anders</h3>
+          <p>Op de top wacht geen antwoord in grote letters, maar een plek om stil te staan. Een verhaal over geloven dat de weg zelf de moeite waard is.</p>
+        </li>
+      </ol>
+    </div>
+
+    <blockquote class="story__quote reveal">
+      <p>“Ik hoef niet te weten waar de weg eindigt. Ik hoef alleen de volgende stap te zien.”</p>
+      <footer>Voorbeeldregel uit een lied · voorbeeldtekst, het definitieve verhaal volgt</footer>
+    </blockquote>
+  </section>
+
+  <section class="tickets" id="tickets" aria-labelledby="tickets-title">
+    <div class="tickets__sky" aria-hidden="true"></div>
+    <div class="tickets__inner">
+      <div class="tickets__copy reveal">
+        <p class="label label--dark"><span class="label__num">02</span> Kaartverkoop</p>
+        <h2 id="tickets-title" class="display display--dark">Reserveer je plek <em>op de weg</em></h2>
+        <p>De kaartverkoop is nog niet geopend. Dit ontwerp laat zien waar de reserveringsknop komt.</p>
+      </div>
+      <article class="stub reveal" aria-label="Voorbeeld van een toegangsbewijs">
+        <div class="stub__main">
+          <p class="stub__kicker">Toegangsbewijs · voorbeeld</p>
+          <p class="stub__title">On <i>the</i> Way</p>
+          <dl class="stub__meta">
+            <div><dt>Datum</dt><dd>Nog bekend te maken</dd></div>
+            <div><dt>Zaal</dt><dd>Nog bekend te maken</dd></div>
+            <div><dt>Rij · stoel</dt><dd>Vrije keuze (voorbeeld)</dd></div>
+          </dl>
+          <a class="btn btn--ink" href="#tickets" data-ticket>Reserveer tickets</a>
+        </div>
+        <div class="stub__tear" aria-hidden="true"><span>Admit one</span></div>
+      </article>
+    </div>
+  </section>
+
+  <section class="info" id="informatie" aria-labelledby="info-title">
+    <header class="info__head reveal">
+      <p class="label"><span class="label__num">03</span> Algemene informatie</p>
+      <h2 id="info-title" class="display">Praktisch</h2>
+      <p class="info__intro">Alle gegevens hieronder zijn voorbeelden en worden later ingevuld.</p>
+    </header>
+    <dl class="programme">
+      <div class="reveal"><dt><span>i</span>Wanneer</dt><dd>Nog bekend te maken</dd><dd class="tag">Voorbeeld</dd></div>
+      <div class="reveal"><dt><span>ii</span>Aanvang</dt><dd>Nog bekend te maken</dd><dd class="tag">Voorbeeld</dd></div>
+      <div class="reveal"><dt><span>iii</span>Locatie</dt><dd>Nog bekend te maken</dd><dd class="tag">Voorbeeld</dd></div>
+      <div class="reveal"><dt><span>iv</span>Duur</dt><dd>Nog bekend te maken</dd><dd class="tag">Voorbeeld</dd></div>
+      <div class="reveal"><dt><span>v</span>Leeftijd</dt><dd>Nog bekend te maken</dd><dd class="tag">Voorbeeld</dd></div>
+      <div class="reveal"><dt><span>vi</span>Prijs</dt><dd>Nog bekend te maken</dd><dd class="tag">Voorbeeld</dd></div>
+    </dl>
+  </section>
+
+  <section class="cast" id="cast" aria-labelledby="cast-title">
+    <header class="cast__head reveal">
+      <p class="label"><span class="label__num">04</span> Cast &amp; makers</p>
+      <h2 id="cast-title" class="display">Aftiteling</h2>
+      <p>Rollen zijn voorbeelden. Namen volgen na de audities.</p>
+    </header>
+    <div class="credits reveal">
+      <h3 class="credits__group">In de hoofdrollen</h3>
+      <dl>
+        <div><dt>De reiziger</dt><dd>Naam volgt</dd></div>
+        <div><dt>De moeder</dt><dd>Naam volgt</dd></div>
+        <div><dt>De vreemdeling</dt><dd>Naam volgt</dd></div>
+        <div><dt>De gids</dt><dd>Naam volgt</dd></div>
+        <div><dt>Ensemble</dt><dd>Namen volgen</dd></div>
+      </dl>
+      <h3 class="credits__group">Makers</h3>
+      <dl>
+        <div><dt>Regie</dt><dd>Naam volgt</dd></div>
+        <div><dt>Muzikale leiding</dt><dd>Naam volgt</dd></div>
+        <div><dt>Script &amp; liedteksten</dt><dd>Naam volgt</dd></div>
+        <div><dt>Choreografie</dt><dd>Naam volgt</dd></div>
+        <div><dt>Decor &amp; licht</dt><dd>Naam volgt</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <section class="gallery" id="galerij" aria-labelledby="galerij-title">
+    <header class="gallery__head reveal">
+      <p class="label"><span class="label__num">05</span> Galerij</p>
+      <h2 id="galerij-title" class="display">Beelden <em>van onderweg</em></h2>
+      <div class="gallery__ctrl">
+        <button type="button" class="round" data-strip="-1" aria-label="Vorige beelden">←</button>
+        <button type="button" class="round" data-strip="1" aria-label="Volgende beelden">→</button>
+      </div>
+    </header>
+    <ul class="filmstrip" tabindex="0" aria-label="Galerij, horizontaal scrollbaar">
+      <li><figure>
+        <picture><source type="image/webp" srcset="assets/img/wide-720.webp 720w, assets/img/wide-1024.webp 1024w" sizes="(min-width: 900px) 52vw, 86vw"><img src="assets/img/wide-720.jpg" srcset="assets/img/wide-720.jpg 720w, assets/img/wide-1024.jpg 1024w" sizes="(min-width: 900px) 52vw, 86vw" width="1024" height="712" loading="lazy" decoding="async" alt="De reiziger op het pad, het kruis in het tegenlicht en spots in de lucht."></picture>
+        <figcaption><span>01A</span>Conceptillustratie · Het pad naar de top</figcaption>
+      </figure></li>
+      <li><figure>
+        <img src="assets/scene-vertrek.svg" width="800" height="600" loading="lazy" decoding="async" alt="Getekende scène: de reiziger stapt door een stenen poort de weg op terwijl de zon opkomt.">
+        <figcaption><span>02A</span>Conceptillustratie · Het vertrek</figcaption>
+      </figure></li>
+      <li><figure>
+        <picture><source type="image/webp" srcset="assets/img/rugzak-480.webp"><img src="assets/img/rugzak-480.jpg" width="480" height="640" loading="lazy" decoding="async" alt="Close-up van de rode rugzak met riemen en gespen."></picture>
+        <figcaption><span>03A</span>Conceptillustratie · De rugzak</figcaption>
+      </figure></li>
+      <li><figure>
+        <img src="assets/scene-nacht.svg" width="800" height="600" loading="lazy" decoding="async" alt="Getekende scène: de reiziger zit bij een kampvuur onder een sterrenhemel.">
+        <figcaption><span>04A</span>Conceptillustratie · Een nacht onder de sterren</figcaption>
+      </figure></li>
+      <li><figure>
+        <picture><source type="image/webp" srcset="assets/img/spots-520.webp"><img src="assets/img/spots-520.jpg" width="520" height="560" loading="lazy" decoding="async" alt="Toneelspots die door donkere wolken schijnen."></picture>
+        <figcaption><span>05A</span>Conceptillustratie · Lampen in de lucht</figcaption>
+      </figure></li>
+      <li><figure>
+        <img src="assets/scene-ontmoeting.svg" width="800" height="600" loading="lazy" decoding="async" alt="Getekende scène: twee reizigers ontmoeten elkaar op een brug.">
+        <figcaption><span>06A</span>Conceptillustratie · De ontmoeting</figcaption>
+      </figure></li>
+      <li><figure>
+        <picture><source type="image/webp" srcset="assets/img/kruis-560.webp"><img src="assets/img/kruis-560.jpg" width="560" height="560" loading="lazy" decoding="async" alt="Het kruis op de top in het licht van de ondergaande zon."></picture>
+        <figcaption><span>07A</span>Conceptillustratie · De top</figcaption>
+      </figure></li>
+      <li><figure>
+        <img src="assets/scene-ensemble.svg" width="800" height="600" loading="lazy" decoding="async" alt="Getekende scène: het ensemble staat op het podium onder spots.">
+        <figcaption><span>08A</span>Conceptillustratie · Het ensemble</figcaption>
+      </figure></li>
+    </ul>
+  </section>
+
+  <section class="about" id="wie" aria-labelledby="wie-title">
+    <div class="about__img reveal">
+      <picture><source type="image/webp" srcset="assets/img/pad-544.webp"><img src="assets/img/pad-544.jpg" width="544" height="656" loading="lazy" decoding="async" alt="Detail van het conceptbeeld: een rotsig pad met struiken in warm avondlicht."></picture>
+    </div>
+    <div class="about__text reveal">
+      <p class="label"><span class="label__num">06</span> Wie zijn wij?</p>
+      <h2 id="wie-title" class="display">Makers <em>onderweg</em></h2>
+      <p class="about__lead">Achter On The Way staat een groep makers, spelers en vrijwilligers die samen een voorstelling bouwen over hoop en onderweg zijn.</p>
+      <p>Wie de organisatie precies is, maken we binnenkort bekend. Deze tekst is een voorbeeld.</p>
+    </div>
+  </section>
+</main>
+
+<footer class="footer" id="contact" aria-labelledby="contact-title">
+  <p class="footer__fin" aria-hidden="true">Wordt <i>vervolgd</i></p>
+  <div class="footer__inner">
+    <h2 id="contact-title" class="display display--small">Contact</h2>
+    <dl class="footer__list">
+      <div><dt>E-mail</dt><dd>Nog bekend te maken</dd></div>
+      <div><dt>Adres</dt><dd>Nog bekend te maken</dd></div>
+      <div><dt>Organisatie</dt><dd>Nog bekend te maken</dd></div>
+    </dl>
+    <p class="footer__small">On The Way · ontwerpconcept 1 “Gouden uur” · beeld: conceptbeeld en eigen illustraties · <a href="../">Alle concepten</a> · <a href="#top">Naar boven ↑</a></p>
+  </div>
+</footer>
+
+<dialog class="ticket-dialog" id="ticket-dialog" aria-labelledby="dialog-title">
+  <p class="label">Demo</p>
+  <h2 id="dialog-title">Dit is een demo. Er wordt niets gereserveerd.</h2>
+  <p>On The Way is hier een ontwerpconcept. Er is nog geen kaartverkoop: via deze pagina kun je niets reserveren of betalen.</p>
+  <p>Zodra de kaartverkoop opent, komt hier de echte informatie.</p>
+  <button type="button" class="btn btn--gold" data-close>Sluiten</button>
+</dialog>
+
+<script src="script.js"></script>
+</body>
+</html>

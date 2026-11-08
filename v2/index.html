@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ON THE WAY · musical · Ontwerpconcept 2: Toneelaffiche</title>
+<meta name="description" content="Ontwerpconcept voor de musical On The Way. Alle tekst en gegevens zijn voorbeelden.">
+<meta name="theme-color" content="#0a0f2e">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=DM+Serif+Display:ital@0;1&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Naar de inhoud</a>
+<p class="concept-banner" role="note">Ontwerpconcept · alle tekst en gegevens zijn voorbeelden</p>
+
+<header class="rail" id="top">
+  <a class="rail__logo" href="#top" aria-label="On The Way, naar boven">OTW</a>
+  <nav class="rail__nav" aria-label="Hoofdnavigatie">
+    <ul>
+      <li><a href="#verhaal"><span class="rail__n">01</span> Verhaal</a></li>
+      <li><a href="#informatie"><span class="rail__n">02</span> Info</a></li>
+      <li><a href="#cast"><span class="rail__n">03</span> Cast</a></li>
+      <li><a href="#galerij"><span class="rail__n">04</span> Galerij</a></li>
+      <li><a href="#wie"><span class="rail__n">05</span> Wie</a></li>
+      <li><a href="#contact"><span class="rail__n">06</span> Contact</a></li>
+    </ul>
+  </nav>
+  <a class="rail__tickets" href="#tickets" data-ticket>Tickets</a>
+</header>
+
+<main id="main">
+  <section class="hero" aria-labelledby="hero-title">
+    <p class="hero__vertical" aria-hidden="true">Musical ✶ werktitel ✶ ontwerpconcept nº 2</p>
+    <div class="hero__type">
+      <p class="hero__kicker"><span class="chip">Voorbeeld</span> Een nieuwe musical over hoop &amp; onderweg zijn</p>
+      <h1 id="hero-title" class="hero__title">
+        <span class="hero__line hero__line--on">On</span>
+        <span class="hero__line hero__line--the">the</span>
+        <span class="hero__line hero__line--way">Way</span>
+      </h1>
+      <p class="hero__dek">Eén rugzak. Eén pad omhoog. <em>En ergens boven de wolken gaan de lampen aan.</em></p>
+    </div>
+
+    <figure class="stage" id="stage" data-target="reiziger">
+      <div class="stage__frame">
+        <picture>
+          <source type="image/webp" srcset="assets/img/full-640.webp 640w, assets/img/full-1024.webp 1024w" sizes="(min-width: 900px) 38vw, 88vw">
+          <img class="stage__photo" src="assets/img/full-1024.jpg" srcset="assets/img/full-640.jpg 640w, assets/img/full-1024.jpg 1024w" sizes="(min-width: 900px) 38vw, 88vw" width="1024" height="1536" fetchpriority="high" decoding="async"
+            alt="Conceptbeeld als kobaltblauwe affichedruk: een jonge man met een rode rugzak loopt een rotsig pad op naar een kruis op de heuvel, met toneelspots in de lucht.">
+        </picture>
+        <picture class="stage__reveal" aria-hidden="true">
+          <source type="image/webp" srcset="assets/img/gold-full-640.webp 640w, assets/img/gold-full-1024.webp 1024w" sizes="(min-width: 900px) 38vw, 88vw">
+          <img src="assets/img/gold-full-1024.jpg" srcset="assets/img/gold-full-640.jpg 640w, assets/img/gold-full-1024.jpg 1024w" sizes="(min-width: 900px) 38vw, 88vw" width="1024" height="1536" alt="" decoding="async">
+        </picture>
+        <div class="stage__dots" aria-hidden="true"></div>
+        <div class="stage__dark" aria-hidden="true"></div>
+        <span class="stage__ring" aria-hidden="true"></span>
+      </div>
+      <figcaption><span class="mono">Conceptbeeld</span> Beweeg over het beeld: waar de spot valt, kleurt het gouden uur terug.</figcaption>
+      <div class="spot-picker" role="group" aria-label="Richt de spot op het beeld">
+        <button type="button" data-spot="reiziger" aria-pressed="true">Reiziger</button>
+        <button type="button" data-spot="kruis" aria-pressed="false">Kruis</button>
+        <button type="button" data-spot="lampen" aria-pressed="false">Lampen</button>
+        <button type="button" data-spot="zaal" aria-pressed="false">Zaallicht</button>
+      </div>
+    </figure>
+
+    <a class="badge" href="#tickets" data-ticket aria-label="Reserveer tickets (demo)">
+      <svg viewBox="0 0 200 200" aria-hidden="true" focusable="false">
+        <defs><path id="badge-circle" d="M100,100 m-74,0 a74,74 0 1,1 148,0 a74,74 0 1,1 -148,0"/></defs>
+        <text><textPath href="#badge-circle" textLength="462" lengthAdjust="spacing">Reserveer ✶ tickets ✶ demo ✶ reserveer ✶ tickets ✶ demo ✶</textPath></text>
+      </svg>
+      <span>Tickets<br>→</span>
+    </a>
+
+    <div class="hero__bar">
+      <a class="btn btn--red" href="#tickets" data-ticket>Reserveer tickets <span aria-hidden="true">→</span></a>
+      <dl class="hero__facts">
+        <div><dt>Première</dt><dd>Nog bekend te maken</dd></div>
+        <div><dt>Plaats</dt><dd>Nog bekend te maken</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <div class="ribbon" aria-hidden="true"><p data-drift="-0.35">Onderweg ✶ Hoop ✶ Twijfel ✶ Licht ✶ Onderweg ✶ Hoop ✶ Twijfel ✶ Licht ✶ Onderweg ✶ Hoop ✶ Twijfel ✶ Licht ✶</p></div>
+
+  <section class="story" id="verhaal" aria-labelledby="verhaal-title">
+    <div class="story__top">
+      <h2 id="verhaal-title" class="mega"><span>Het</span> <span>verhaal</span></h2>
+      <p class="story__dek"><span class="chip chip--cream">Voorbeeldverhaal</span> Een jonge man pakt zijn rode rugzak en trekt de deur achter zich dicht. <em>Waarheen? Dat weet hij nog niet.</em></p>
+    </div>
+    <div class="story__spread">
+      <figure class="story__still reveal">
+        <picture><source type="image/webp" srcset="assets/img/rugzak-480.webp"><img src="assets/img/rugzak-480.jpg" width="480" height="640" loading="lazy" decoding="async" alt="Detail van het conceptbeeld in kobalt: de rode rugzak als enige kleur."></picture>
+        <figcaption class="mono">Fig. 1 · de rugzak</figcaption>
+      </figure>
+      <ol class="acts">
+        <li class="reveal"><span class="acts__n" aria-hidden="true">1</span><h3>Weggaan</h3><p>De deur valt dicht. Alles wat hij meeneemt, draagt hij zelf, ook wat hij liever thuis had gelaten.</p></li>
+        <li class="reveal"><span class="acts__n" aria-hidden="true">2</span><h3>Volhouden</h3><p>Vreemden die vrienden worden, liedjes rond een vuur, nachten vol twijfel en een sprankje hoop.</p></li>
+        <li class="reveal"><span class="acts__n" aria-hidden="true">3</span><h3>Aankomen</h3><p>Boven valt het licht. Geen eindpunt, maar een plek om te geloven dat de weg ertoe deed.</p></li>
+      </ol>
+    </div>
+    <div class="drift" aria-hidden="true">
+      <p data-drift="0.25">Weggaan — Volhouden — Aankomen — Weggaan — Volhouden</p>
+      <p data-drift="-0.25" class="drift--outline">Aankomen — Weggaan — Volhouden — Aankomen — Weggaan</p>
+    </div>
+    <blockquote class="story__quote reveal">
+      <p>“Ik hoef niet te weten waar de weg eindigt. Alleen de volgende stap.”</p>
+      <footer class="mono">Voorbeeldregel uit een lied · het definitieve verhaal volgt</footer>
+    </blockquote>
+  </section>
+
+  <section class="tickets" id="tickets" aria-labelledby="tickets-title">
+    <p class="tickets__ghost" aria-hidden="true">Tickets</p>
+    <div class="ticket reveal">
+      <div class="ticket__main">
+        <p class="mono">Toegangsbewijs · demo</p>
+        <h2 id="tickets-title">Reserveer je stoel <em>in de zaal</em></h2>
+        <p>De kaartverkoop is nog niet geopend. Deze knop laat zien waar reserveren straks begint.</p>
+        <a class="btn btn--ink" href="#tickets" data-ticket>Reserveer tickets <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="ticket__stub" aria-hidden="true">
+        <span class="mono">Rij</span><b>—</b>
+        <span class="mono">Stoel</span><b>—</b>
+        <span class="ticket__code">Voorbeeld</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="info" id="informatie" aria-labelledby="info-title">
+    <h2 id="info-title" class="section-title"><span class="section-title__n">02</span>Algemene informatie</h2>
+    <dl class="facts">
+      <div class="reveal"><dt class="mono">Wanneer</dt><dd>Nog bekend te maken</dd><dd class="chip">Voorbeeld</dd></div>
+      <div class="reveal"><dt class="mono">Aanvang</dt><dd>Nog bekend te maken</dd><dd class="chip">Voorbeeld</dd></div>
+      <div class="reveal"><dt class="mono">Locatie</dt><dd>Nog bekend te maken</dd><dd class="chip">Voorbeeld</dd></div>
+      <div class="reveal"><dt class="mono">Duur</dt><dd>Nog bekend te maken</dd><dd class="chip">Voorbeeld</dd></div>
+      <div class="reveal"><dt class="mono">Leeftijd</dt><dd>Nog bekend te maken</dd><dd class="chip">Voorbeeld</dd></div>
+      <div class="reveal"><dt class="mono">Prijs</dt><dd>Nog bekend te maken</dd><dd class="chip">Voorbeeld</dd></div>
+    </dl>
+  </section>
+
+  <section class="cast" id="cast" aria-labelledby="cast-title">
+    <div class="cast__head">
+      <h2 id="cast-title" class="section-title"><span class="section-title__n">03</span>Cast &amp; makers</h2>
+      <p>Rollen zijn voorbeelden, namen volgen na de audities. <b>Klik op een rol</b> om hem in de spot te zetten.</p>
+    </div>
+    <ul class="billing" data-billing>
+      <li><button type="button" aria-pressed="true"><span class="billing__role">De reiziger</span><span class="billing__name">Naam volgt</span></button></li>
+      <li><button type="button" aria-pressed="false"><span class="billing__role">De moeder</span><span class="billing__name">Naam volgt</span></button></li>
+      <li><button type="button" aria-pressed="false"><span class="billing__role">De vreemdeling</span><span class="billing__name">Naam volgt</span></button></li>
+      <li><button type="button" aria-pressed="false"><span class="billing__role">De gids</span><span class="billing__name">Naam volgt</span></button></li>
+      <li><button type="button" aria-pressed="false"><span class="billing__role">Ensemble</span><span class="billing__name">Namen volgen</span></button></li>
+    </ul>
+    <dl class="makers">
+      <div><dt class="mono">Regie</dt><dd>Naam volgt</dd></div>
+      <div><dt class="mono">Muzikale leiding</dt><dd>Naam volgt</dd></div>
+      <div><dt class="mono">Script &amp; liedteksten</dt><dd>Naam volgt</dd></div>
+      <div><dt class="mono">Choreografie</dt><dd>Naam volgt</dd></div>
+      <div><dt class="mono">Decor &amp; licht</dt><dd>Naam volgt</dd></div>
+    </dl>
+  </section>
+
+  <section class="gallery" id="galerij" aria-labelledby="galerij-title">
+    <h2 id="galerij-title" class="section-title"><span class="section-title__n">04</span>Affichemuur</h2>
+    <ul class="wall">
+      <li class="wall__a reveal"><figure>
+        <picture><source type="image/webp" srcset="assets/img/wide-720.webp 720w, assets/img/wide-1024.webp 1024w" sizes="(min-width: 900px) 50vw, 92vw"><img src="assets/img/wide-720.jpg" srcset="assets/img/wide-720.jpg 720w, assets/img/wide-1024.jpg 1024w" sizes="(min-width: 900px) 50vw, 92vw" width="1024" height="712" loading="lazy" decoding="async" alt="De reiziger op het pad naar het kruis, als kobaltblauwe affichedruk."></picture>
+        <figcaption><b>01</b> Conceptillustratie · Het pad</figcaption></figure></li>
+      <li class="wall__b reveal"><figure>
+        <img src="assets/scene-vertrek.svg" width="800" height="600" loading="lazy" decoding="async" alt="Getekende affiche: de reiziger stapt door een poort de weg op.">
+        <figcaption><b>02</b> Conceptillustratie · Het vertrek</figcaption></figure></li>
+      <li class="wall__c reveal"><figure>
+        <picture><source type="image/webp" srcset="assets/img/kruis-560.webp"><img src="assets/img/kruis-560.jpg" width="560" height="560" loading="lazy" decoding="async" alt="Het kruis op de top in tegenlicht, in kobalt en crème."></picture>
+        <figcaption><b>03</b> Conceptillustratie · De top</figcaption></figure></li>
+      <li class="wall__d reveal"><figure>
+        <img src="assets/scene-nacht.svg" width="800" height="600" loading="lazy" decoding="async" alt="Getekende affiche: een kampvuur onder de sterren.">
+        <figcaption><b>04</b> Conceptillustratie · De nacht</figcaption></figure></li>
+      <li class="wall__e reveal"><figure>
+        <picture><source type="image/webp" srcset="assets/img/spots-520.webp"><img src="assets/img/spots-520.jpg" width="520" height="560" loading="lazy" decoding="async" alt="Toneelspots die door de wolken schijnen, in kobalt."></picture>
+        <figcaption><b>05</b> Conceptillustratie · De lampen</figcaption></figure></li>
+      <li class="wall__f reveal"><figure>
+        <img src="assets/scene-ontmoeting.svg" width="800" height="600" loading="lazy" decoding="async" alt="Getekende affiche: twee reizigers ontmoeten elkaar op een brug.">
+        <figcaption><b>06</b> Conceptillustratie · De ontmoeting</figcaption></figure></li>
+      <li class="wall__g reveal"><figure>
+        <img src="assets/scene-ensemble.svg" width="800" height="600" loading="lazy" decoding="async" alt="Getekende affiche: het ensemble onder de spots.">
+        <figcaption><b>07</b> Conceptillustratie · Het ensemble</figcaption></figure></li>
+    </ul>
+  </section>
+
+  <section class="about" id="wie" aria-labelledby="wie-title">
+    <h2 id="wie-title" class="mega mega--stack"><span>Wie</span> <span>zijn</span> <span>wij?</span></h2>
+    <div class="about__text reveal">
+      <p class="about__lead">Achter On The Way staat een groep makers, spelers en vrijwilligers die samen een voorstelling bouwen over hoop en onderweg zijn.</p>
+      <p>Wie de organisatie precies is, maken we binnenkort bekend. Deze tekst is een voorbeeld.</p>
+      <figure class="about__spot">
+        <picture><source type="image/webp" srcset="assets/img/pad-544.webp"><img src="assets/img/pad-544.jpg" width="544" height="656" loading="lazy" decoding="async" alt="Detail van het conceptbeeld: het rotsige pad in kobalt."></picture>
+      </figure>
+    </div>
+  </section>
+</main>
+
+<footer class="footer" id="contact" aria-labelledby="contact-title">
+  <p class="footer__mark" aria-hidden="true">On the Way</p>
+  <h2 id="contact-title" class="section-title section-title--cream"><span class="section-title__n">06</span>Contact</h2>
+  <dl class="footer__list">
+    <div><dt class="mono">E-mail</dt><dd>Nog bekend te maken</dd></div>
+    <div><dt class="mono">Adres</dt><dd>Nog bekend te maken</dd></div>
+    <div><dt class="mono">Organisatie</dt><dd>Nog bekend te maken</dd></div>
+  </dl>
+  <p class="footer__small">On The Way · ontwerpconcept 2 “Toneelaffiche” · beeld: conceptbeeld en eigen illustraties · <a href="../">Alle concepten</a> · <a href="#top">Naar boven ↑</a></p>
+</footer>
+
+<dialog class="ticket-dialog" id="ticket-dialog" aria-labelledby="dialog-title">
+  <p class="mono">Demo · geen kaartverkoop</p>
+  <h2 id="dialog-title">Dit is een demo. Er wordt niets gereserveerd.</h2>
+  <p>On The Way is hier een ontwerpconcept. Er is nog geen kaartverkoop: via deze pagina kun je niets reserveren of betalen.</p>
+  <p>Zodra de kaartverkoop opent, komt hier de echte informatie.</p>
+  <button type="button" class="btn btn--red" data-close>Sluiten</button>
+</dialog>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" preserveAspectRatio="xMidYMid slice" role="img" aria-labelledby="t"><title id="t">Conceptillustratie: aankomst op de top</title><defs><filter id="r" x="-5%" y="-5%" width="110%" height="110%"><feTurbulence type="fractalNoise" baseFrequency="0.022" numOctaves="2" seed="3"/><feDisplacementMap in="SourceGraphic" scale="5"/></filter><radialGradient id="crossGlow"><stop offset="0" stop-color="#f3c88f" stop-opacity=".7"/><stop offset="1" stop-color="#f3c88f" stop-opacity="0"/></radialGradient></defs><rect width="800" height="600" fill="#f5e8d3"/><g filter="url(#r)">
+<defs><linearGradient id="g1" gradientUnits="userSpaceOnUse" x1="60" y1="0" x2="485" y2="313"><stop offset="0" stop-color="#ffffff" stop-opacity="0.5"/><stop offset=".55" stop-color="#ffffff" stop-opacity="0.175"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></linearGradient><linearGradient id="g2" gradientUnits="userSpaceOnUse" x1="740" y1="0" x2="315" y2="313"><stop offset="0" stop-color="#ffffff" stop-opacity="0.5"/><stop offset=".55" stop-color="#ffffff" stop-opacity="0.175"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></linearGradient><linearGradient id="g3" gradientUnits="userSpaceOnUse" x1="400" y1="0" x2="400" y2="325"><stop offset="0" stop-color="#ffffff" stop-opacity="0.35"/><stop offset=".55" stop-color="#ffffff" stop-opacity="0.12249999999999998"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></linearGradient></defs>
+<rect width="800" height="600" fill="#f5e8d3"/>
+<rect y="260" width="800" height="340" fill="#ecc6a4" opacity=".7"/>
+<circle cx="400" cy="300" r="120" fill="#f3c88f" opacity=".9"/>
+
+<polygon points="54.7,7.3 65.3,-7.3 532.4,248.0 437.6,377.0" fill="url(#g1)"/><polygon points="734.7,-7.3 745.3,7.3 362.4,377.0 267.6,248.0" fill="url(#g2)"/><polygon points="391.0,0.0 409.0,0.0 450.0,325.0 350.0,325.0" fill="url(#g3)"/>
+<polygon points="0,520 150,470 260,430 400,320 540,430 650,470 800,500 800,600 0,600" fill="#7d8f6b" stroke="#3b2f27" stroke-width="2.4"/>
+<g transform="translate(400 324)">
+  <circle cx="0" cy="-102.00000000000001" r="135" fill="url(#crossGlow)"/>
+  <rect x="-5" y="-150" width="10" height="150" fill="#3b2f27"/>
+  <rect x="-41.25" y="-114" width="82.5" height="9" fill="#3b2f27"/>
+  <path d="M5 -150 v150 M41.25 -114 v9" stroke="#c4572f" stroke-width="1.6" opacity=".8"/>
+</g>
+<g transform="translate(300 425) scale(0.62)">
+  <ellipse cx="2" cy="2" rx="34" ry="5" fill="#3b2f27" opacity=".35"/>
+  <line x1="27" y1="-64" x2="40" y2="2" stroke="#8a6a4a" stroke-width="3.2" stroke-linecap="round"/>
+  <path d="M-3 -60 L-15 -30 L-26 -2" fill="none" stroke="#3b2f27" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M5 -60 L14 -31 L22 -3" fill="none" stroke="#3b2f27" stroke-width="11.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M-33 1 q3 -7 11 -6 l3 6 z M17 -1 q4 -7 12 -4 l1 5 z" fill="#3b2f27"/>
+  <path d="M-11 -58 Q-15 -88 -7 -102 Q2 -107 11 -102 Q17 -86 13 -58 Z" fill="#3b2f27" stroke="#3b2f27" stroke-width="1.6" stroke-linejoin="round"/>
+  <circle cx="4" cy="-114" r="10.5" fill="#3b2f27" stroke="#3b2f27" stroke-width="1.6" stroke-linejoin="round"/>
+  <path d="M-6 -117 q4 -12 16 -8 q5 3 1 9 q-8 -5 -17 -1z" fill="#3b2f27"/>
+  <path d="M9 -98 L20 -80 L27 -64" fill="none" stroke="#3b2f27" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="-31" y="-104" width="24" height="40" rx="7" fill="#c4572f" stroke="#3b2f27" stroke-width="1.6" stroke-linejoin="round"/>
+  <rect x="-31" y="-104" width="24" height="12" rx="6" fill="#e48a60" opacity=".55"/>
+  <rect x="-28" y="-80" width="16" height="10" rx="3" fill="#3b2f27" opacity=".25"/>
+  <rect x="-33" y="-112" width="27" height="9" rx="4.5" fill="#8a6a4a" stroke="#3b2f27" stroke-width="1.6" stroke-linejoin="round"/>
+  <path d="M-9 -100 L4 -97 M-9 -70 L6 -74" stroke="#3b2f27" stroke-width="2.4" opacity=".7"/>
+  <path d="M14 -122 q6 6 1 14 M12 -98 Q18 -84 14 -60 M-7 -100 v34" fill="none" stroke="#c4572f" stroke-width="2" stroke-linecap="round" opacity=".9"/>
+</g></g></svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" preserveAspectRatio="xMidYMid slice" role="img" aria-labelledby="t"><title id="t">Conceptillustratie: het vertrek bij de deur</title><defs><filter id="r" x="-5%" y="-5%" width="110%" height="110%"><feTurbulence type="fractalNoise" baseFrequency="0.022" numOctaves="2" seed="3"/><feDisplacementMap in="SourceGraphic" scale="5"/></filter><radialGradient id="crossGlow"><stop offset="0" stop-color="#f3c88f" stop-opacity=".7"/><stop offset="1" stop-color="#f3c88f" stop-opacity="0"/></radialGradient></defs><rect width="800" height="600" fill="#ecc6a4"/><g filter="url(#r)">
+<rect width="800" height="600" fill="#ecc6a4"/>
+<rect y="0" width="800" height="260" fill="#f5e8d3" opacity=".7"/>
+<circle cx="610" cy="250" r="70" fill="#f3c88f"/>
+
+<polygon points="0,330 140,280 260,320 420,250 560,300 700,260 800,290 800,600 0,600" fill="#b8c3a3" stroke="#3b2f27" stroke-width="2.4"/>
+<path d="M0 600 L0 120 L250 120 L250 600 Z M60 600 V250 Q125 170 190 250 V600 Z" fill="#3b2f27" fill-rule="evenodd"/>
+<polygon points="250,600 250,120 330,170 330,600" fill="#7d8f6b" stroke="#3b2f27" stroke-width="2.4"/>
+<path d="M190 600 C 330 520, 520 440, 640 330" stroke="#fbf6ea" stroke-width="26" fill="none" opacity=".4" stroke-linecap="round"/>
+<path d="M60 600 L190 600 L130 520 Z" fill="#f3c88f" opacity=".35"/>
+<g transform="translate(380 500) scale(1.1)">
+  <ellipse cx="2" cy="2" rx="34" ry="5" fill="#3b2f27" opacity=".35"/>
+  <line x1="27" y1="-64" x2="40" y2="2" stroke="#8a6a4a" stroke-width="3.2" stroke-linecap="round"/>
+  <path d="M-3 -60 L-15 -30 L-26 -2" fill="none" stroke="#3b2f27" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M5 -60 L14 -31 L22 -3" fill="none" stroke="#3b2f27" stroke-width="11.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M-33 1 q3 -7 11 -6 l3 6 z M17 -1 q4 -7 12 -4 l1 5 z" fill="#3b2f27"/>
+  <path d="M-11 -58 Q-15 -88 -7 -102 Q2 -107 11 -102 Q17 -86 13 -58 Z" fill="#3b2f27" stroke="#3b2f27" stroke-width="1.6" stroke-linejoin="round"/>
+  <circle cx="4" cy="-114" r="10.5" fill="#3b2f27" stroke="#3b2f27" stroke-width="1.6" stroke-linejoin="round"/>
+  <path d="M-6 -117 q4 -12 16 -8 q5 3 1 9 q-8 -5 -17 -1z" fill="#3b2f27"/>
+  <path d="M9 -98 L20 -80 L27 -64" fill="none" stroke="#3b2f27" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="-31" y="-104" width="24" height="40" rx="7" fill="#c4572f" stroke="#3b2f27" stroke-width="1.6" stroke-linejoin="round"/>
+  <rect x="-31" y="-104" width="24" height="12" rx="6" fill="#e48a60" opacity=".55"/>
+  <rect x="-28" y="-80" width="16" height="10" rx="3" fill="#3b2f27" opacity=".25"/>
+  <rect x="-33" y="-112" width="27" height="9" rx="4.5" fill="#8a6a4a" stroke="#3b2f27" stroke-width="1.6" stroke-linejoin="round"/>
+  <path d="M-9 -100 L4 -97 M-9 -70 L6 -74" stroke="#3b2f27" stroke-width="2.4" opacity=".7"/>
+  <path d="M14 -122 q6 6 1 14 M12 -98 Q18 -84 14 -60 M-7 -100 v34" fill="none" stroke="#c4572f" stroke-width="2" stroke-linecap="round" opacity=".9"/>
+</g>
+<g stroke="#3b2f27" stroke-width="3" fill="none"><path d="M90 300 h70 M90 330 h70"/></g></g></svg>

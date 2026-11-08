@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>On The Way — kies een ontwerpconcept</title>
+<meta name="description" content="Drie ontwerpconcepten voor de musical On The Way. Alle tekst en gegevens zijn voorbeelden.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Hanken+Grotesk:wght@400;600;700&family=Anton&family=DM+Serif+Display:ital@1&family=Newsreader:ital,opsz,wght@0,6..72,300;1,6..72,300&family=Gochi+Hand&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; }
+  body { margin: 0; min-height: 100vh; background: #100d0b; color: #f4ead3; font: 400 1rem/1.6 "Hanken Grotesk", system-ui, sans-serif; padding-top: 30px; }
+  a { color: inherit; }
+  :focus-visible { outline: 3px solid #f2c879; outline-offset: 4px; }
+  .banner { position: fixed; inset: 0 0 auto; z-index: 10; height: 30px; margin: 0; display: grid; place-items: center; background: #dca546; color: #15110d; font: 700 .72rem/1 "Hanken Grotesk", sans-serif; letter-spacing: .08em; text-transform: uppercase; text-align: center; padding: 0 10px; }
+  header { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: end; gap: 16px 40px; padding: clamp(40px, 6vw, 80px) clamp(20px, 5vw, 72px) 36px; }
+  h1 { margin: 0; font: 400 clamp(3.4rem, 8vw, 7rem)/.9 "Instrument Serif", serif; letter-spacing: -.02em; }
+  h1 em { color: #f2c879; }
+  header p { margin: 0; max-width: 46ch; color: rgba(244, 234, 211, .72); }
+  .concepts { list-style: none; margin: 0; padding: 0 clamp(20px, 5vw, 72px) 60px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+  .card { position: relative; display: flex; flex-direction: column; min-height: 640px; height: 100%; overflow: hidden; border-radius: 6px; text-decoration: none; isolation: isolate; transition: transform .4s cubic-bezier(.2, .7, .2, 1), box-shadow .4s; }
+  .card:hover, .card:focus-visible { transform: translateY(-6px); box-shadow: 0 30px 60px -20px rgba(0, 0, 0, .7); }
+  .card picture { display: contents; }
+  .card img { position: absolute; inset: 0; z-index: -2; width: 100%; height: 100%; object-fit: cover; transition: transform 1s cubic-bezier(.2, .7, .2, 1); }
+  .card:hover img { transform: scale(1.04); }
+  .card::after { content: ""; position: absolute; inset: 0; z-index: -1; pointer-events: none; }
+  .card__body { margin-top: auto; padding: 28px; }
+  .card__n { margin: 0; font: 700 .72rem/1 "Hanken Grotesk", sans-serif; letter-spacing: .24em; text-transform: uppercase; }
+  .card h2 { margin: 12px 0 10px; font-weight: 400; }
+  .card p { margin: 0 0 18px; font-size: .95rem; }
+  .card__go { display: inline-block; font-weight: 700; font-size: .9rem; border-bottom: 2px solid currentColor; }
+  .card__meta { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 16px; }
+  .card__meta span { padding: 3px 9px; border: 1px solid currentColor; border-radius: 99px; font-size: .7rem; opacity: .85; }
+  .card__url { display: block; margin-top: 14px; font-size: .72rem; letter-spacing: .06em; opacity: .7; }
+
+  /* v1 — gouden uur: warme foto, donkere filmische fade */
+  .c1 { color: #f4ead3; background: #15110d; }
+  .c1 img { object-position: 50% 30%; }
+  .c1::after { background: linear-gradient(0deg, rgba(15, 11, 9, .96) 22%, rgba(15, 11, 9, .35) 58%, transparent 80%), radial-gradient(60% 40% at 70% 18%, rgba(242, 200, 121, .25), transparent); }
+  .c1 h2 { font: 400 4.2rem/.9 "Instrument Serif", serif; }
+  .c1 h2 em { color: #f2c879; }
+  .c1 .card__n { color: #f2c879; }
+
+  /* v2 — toneelaffiche: kobalt fotodruk in schuin frame op crème */
+  .c2 { color: #0a0f2e; background: #f1e4c9; }
+  .c2 img { position: relative; inset: auto; flex: none; height: 340px; object-position: 50% 28%; clip-path: polygon(0 0, 100% 0, 100% 86%, 0 100%); }
+  .c2 .card__body { padding-top: 4px; }
+  .c2 h2 { font: 400 4.3rem/.86 "Anton", sans-serif; text-transform: uppercase; transform: rotate(-4deg); transform-origin: 0 100%; }
+  .c2 h2 span { color: #d23a1e; display: block; font: italic 400 2.4rem/1 "DM Serif Display", serif; text-transform: none; }
+  .c2 .card__n { color: #1a33a8; }
+  .c2 .card__go { color: #d23a1e; }
+
+  /* v3 — pelgrimsdagboek: sepia afdruk als ingeplakte foto */
+  .c3 { color: #3b2f27; background: #f7f0e2; }
+  .c3 img { position: relative; inset: auto; flex: none; margin: 24px 24px 0; width: calc(100% - 48px); height: 300px; border: 10px solid #fbf6ea; box-shadow: 0 16px 30px -16px rgba(59, 47, 39, .5); transform: rotate(2deg); object-position: 50% 30%; }
+  .c3:hover img { transform: rotate(0) scale(1.02); }
+  .c3 h2 { font: 300 3.6rem/.95 "Newsreader", serif; }
+  .c3 h2 em { color: #c4572f; display: block; }
+  .c3 .card__n { color: #5d6e50; }
+  .c3 .hand { font: 400 1.5rem/1 "Gochi Hand", cursive; color: #c4572f; display: block; margin-bottom: 4px; }
+
+  footer { padding: 0 clamp(20px, 5vw, 72px) 40px; font-size: .82rem; color: rgba(244, 234, 211, .55); }
+  @media (max-width: 1000px) { .concepts { grid-template-columns: 1fr; } .card { min-height: 560px; } }
+  @media (max-width: 600px) { .banner { font-size: .6rem; letter-spacing: .03em; } .c1 h2 { font-size: 3.4rem; } .c2 h2 { font-size: 3.6rem; } .c3 h2 { font-size: 3rem; } .c2 img { height: 300px; } .c3 img { height: 260px; } }
+  @media (prefers-reduced-motion: reduce) { .card, .card img { transition: none; } .card:hover, .card:focus-visible { transform: none; } .card:hover img { transform: none; } .c3 img, .c3:hover img { transform: rotate(2deg); } }
+</style>
+</head>
+<body>
+<p class="banner" role="note">Ontwerpconcept · alle tekst en gegevens zijn voorbeelden</p>
+<header>
+  <h1>On The Way<br><em>drie richtingen</em></h1>
+  <p>Drie ontwerpconcepten voor de detailpagina van de musical On The Way. Elk concept heeft dezelfde voorbeeldinhoud (verhaal, tickets, informatie, cast, galerij, organisatie en contact), maar een eigen beeldtaal rond dezelfde foto: de rugzak bij het kruis. Kies een concept om het te bekijken.</p>
+</header>
+<main>
+  <ul class="concepts">
+    <li><a class="card c1" href="v1/">
+      <picture>
+        <source type="image/webp" srcset="v1/assets/img/full-640.webp 640w, v1/assets/img/full-1024.webp 1024w" sizes="(min-width: 1000px) 30vw, 100vw">
+        <img src="v1/assets/img/full-640.jpg" srcset="v1/assets/img/full-640.jpg 640w, v1/assets/img/full-1024.jpg 1024w" sizes="(min-width: 1000px) 30vw, 100vw" width="640" height="960" alt="" decoding="async">
+      </picture>
+      <div class="card__body">
+        <p class="card__n">Concept 1</p>
+        <h2>Gouden <em>uur</em></h2>
+        <div class="card__meta"><span>Cinematisch</span><span>Inkt · olijf · goud</span><span>Camera-scrollytelling</span></div>
+        <p>De foto in warm avondlicht, als filmposter met lichtbundels, aftiteling en een filmstrip als galerij.</p>
+        <span class="card__go">Bekijk concept 1 →</span>
+        <span class="card__url">/v1/</span>
+      </div>
+    </a></li>
+    <li><a class="card c2" href="v2/">
+      <picture>
+        <source type="image/webp" srcset="v2/assets/img/full-640.webp 640w, v2/assets/img/full-1024.webp 1024w" sizes="(min-width: 1000px) 30vw, 100vw">
+        <img src="v2/assets/img/full-640.jpg" srcset="v2/assets/img/full-640.jpg 640w, v2/assets/img/full-1024.jpg 1024w" sizes="(min-width: 1000px) 30vw, 100vw" width="640" height="960" alt="" decoding="async">
+      </picture>
+      <div class="card__body">
+        <p class="card__n">Concept 2</p>
+        <h2>Toneel<span>affiche</span></h2>
+        <div class="card__meta"><span>Editorial</span><span>Kobalt · rood · crème</span><span>Volgspot</span></div>
+        <p>De foto als kobalt affichedruk. Een volgspot onthult het gouden origineel; enorme smalle letters en een draaiende ticketbadge.</p>
+        <span class="card__go">Bekijk concept 2 →</span>
+        <span class="card__url">/v2/</span>
+      </div>
+    </a></li>
+    <li><a class="card c3" href="v3/">
+      <picture>
+        <source type="image/webp" srcset="v3/assets/img/full-640.webp 640w, v3/assets/img/full-1024.webp 1024w" sizes="(min-width: 1000px) 28vw, 90vw">
+        <img src="v3/assets/img/full-640.jpg" srcset="v3/assets/img/full-640.jpg 640w, v3/assets/img/full-1024.jpg 1024w" sizes="(min-width: 1000px) 28vw, 90vw" width="640" height="960" alt="" decoding="async">
+      </picture>
+      <div class="card__body">
+        <p class="card__n">Concept 3</p>
+        <span class="hand">dag 1 — onderweg</span>
+        <h2>Pelgrims<em>dagboek</em></h2>
+        <div class="card__meta"><span>Handgemaakt</span><span>Sepia · salie · terracotta</span><span>Route in de kantlijn</span></div>
+        <p>De foto als sepia-afdruk met inktnotities, een pelgrimspas met stempels en bagagelabels voor de cast.</p>
+        <span class="card__go">Bekijk concept 3 →</span>
+        <span class="card__url">/v3/</span>
+      </div>
+    </a></li>
+  </ul>
+</main>
+<footer>Ontwerpconcepten met voorbeeldtekst. Beeld: één referentiefoto (rugzak bij het kruis), per concept anders behandeld. Er worden geen echte namen, data, prijzen of organisatiegegevens getoond.</footer>
+</body>
+</html>
